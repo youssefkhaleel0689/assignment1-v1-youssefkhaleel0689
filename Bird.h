@@ -4,7 +4,15 @@
 #include "Animal.h"
 
 //define class bird here 
+class bird : public Animal {
+private:
+	float wingSpan;
+bird(float);
+bird();
+~bird();
 
+
+};
 
 
 
